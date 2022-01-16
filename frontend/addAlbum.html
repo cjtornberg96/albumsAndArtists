@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Album</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Add New Album</h1>
+  </header>
+  <main>
+
+    <form name="addAlbum">
+      <input name="albumName" type="text" placeholder="Name new album" minlength="1" maxlength="50" required>
+      <input name="albumRelease" type="number" placeholder="Add releasedate for album" minlength="4" maxlength="50"
+        required></textarea>
+      <select name="artistId" required>
+        <option value="">Choose artist</option>
+
+      </select>
+      <input type="submit" value="Create album">
+
+    </form>
+
+    <a href="index.html">
+      <button>Go to front page</button>
+    </a>
+
+    <script src="add-album.js"></script>
+  </main>
+
+</body>
+
+</html>
